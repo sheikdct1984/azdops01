@@ -1,0 +1,23 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "ASP Project 02";
+}
+  <body style="background-color:green">
+
+<div class="text-center">
+    
+    <h1> !!! Welcome to ASP Project 02 !!! </h1>
+    <h2> Pro2.Techoil.com</h2>
+    <p>Current Date and Time is: <span id='date-time'></span></p>
+
+    <script>
+        var dateAndTime = new Date();
+        document.getElementById('date-time').innerHTML=dateAndTime.toLocaleString();
+        </script>
+
+    <p> version: V2 </p>
+
+
+</div>
+  </body>
